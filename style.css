@@ -1,3 +1,8 @@
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
 * {scroll-behavior: smooth;}
 body {
     margin: 0;
@@ -16,6 +21,7 @@ body {
 }
 
 .topnav {
+   
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -27,9 +33,8 @@ body {
 .content {
     display: flex;
     justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 90px;
+    padding: 90px 150px 0px 200px;
+   
 }
 
 .View1 img {
@@ -62,6 +67,9 @@ body {
 .activebutton:hover {
     font-weight: bold;
     transition-duration: 80ms;
+}
+.active{
+    font-weight: bold;
 }
 
 .contactbutton {
@@ -99,6 +107,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
+    
 }
 
 .Reserve-ticket:hover {
@@ -106,6 +115,8 @@ body {
     background-color: rgba(255, 255, 255, 0.873);
     transition-duration: 1s;
 }
+
+
 
 /* Footer */
 .footer {
@@ -211,12 +222,14 @@ body {
     width: 90px;
     height: 28px;
     border: 1px solid rgb(66, 65, 65);
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(221, 217, 217, 0.918);
     color: rgb(0, 0, 0);
     font-family: 'Mulish', sans-serif;
     font-weight: 600;
     font-size: 14px;
+    filter: drop-shadow(1px 1px 3px white);
     cursor: pointer;
+    margin-bottom: 4px;
 }
 .guidecontact:hover {
     color: rgb(255, 255, 255);
@@ -284,6 +297,7 @@ body {
     border-radius: 10px;
     height: 300px;
     width: 350px;
+    filter: drop-shadow(7px 7px 8px black);
     
 }
 .ticket-pic{
@@ -297,11 +311,9 @@ body {
     border-radius: 10px;
 }
 
-.flights-ticket1{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 90px 0px 90px;
-    height: 30%;
+.modif{
+   
+ height: 30%;
 }
 .ticket-info{
     height: 15%;
@@ -317,6 +329,7 @@ body {
     width: 90px;
     background-color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 .Buy-ticket:hover {
     color: rgb(255, 255, 255);
@@ -326,3 +339,116 @@ body {
 .Info{
     padding-left: 15px;
 }
+/* About Us */
+.about-us{
+    background-image: url(Images/Aboutback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+.View2 img{
+    padding-right: 180px;
+    height: 30vh;
+    width: 80vh;
+    padding-top: 4vh;
+    filter: drop-shadow(15px 12px 10px rgb(53, 53, 53));
+
+}
+.content-about{
+    display: flex;
+    justify-content: space-between;
+    padding:90px 300px 0px 200px;
+    
+}
+
+
+.Slogan2 h1{
+    font-family: 'Lora', serif;
+    font-size: 59px;
+    text-align: start;
+    padding-right: 150px;
+    
+}
+.Slogan2 p
+ {
+    text-align: start;
+    width: 80vh;
+    font-family: 'Mulish', sans-serif;
+    
+}
+.about-text{
+    display: block;
+    margin-top: -50px;
+    
+}
+/* Contact us */
+.travel-contact{
+    background-image: url(Images/Contactback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+
+}
+.contact-back{
+    background-color: rgba(255, 255, 255, 0.718);
+    height: 100vh;
+}
+.contact-info{
+   height: 85vh;
+   display: block;
+}
+.contact-description{
+    padding-top: 80px;
+   text-align: center;
+   height: 30vh;
+   margin-bottom: 50px;
+  
+}
+.contact-description h1{
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+/* Inputs */
+.contact-inputs{
+    
+    background-color: rgba(255, 255, 255, 0.521);
+}
+input[type=text], 
+select,
+input[type=email],
+input[type=number]
+{
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .Submit-button{
+    border-radius: 4px;
+    width: 125px;
+    height: 40px;
+    background-color: rgba(102, 102, 102, 0);
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .Submit-button:hover{
+    background-color: black;
+    color: white;
+
+    transition-duration: 1s;
+  }
+  
+
+  
+  
+  
+  

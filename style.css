@@ -1,16 +1,37 @@
-a{
+a {
     text-decoration: none;
     color: inherit;
-    
+
 }
-* {scroll-behavior: smooth;}
+
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
     font-family: 'Ubuntu', sans-serif;
 }
+
+
+
+
+
+
+
+
 /* Index */
+
+
+
+
+
+
+
+
+
 .Travel-home {
     background-image: url(Images/homeback.jpg);
     background-size: cover;
@@ -20,21 +41,12 @@ body {
     width: auto;
 }
 
-.topnav {
-   
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
-    align-items: center;
-}
 
 .content {
     display: flex;
     justify-content: space-between;
     padding: 90px 150px 0px 200px;
-   
+
 }
 
 .View1 img {
@@ -45,18 +57,61 @@ body {
     filter: drop-shadow(15px 12px 10px rgb(53, 53, 53));
 }
 
-.Slogan h1
- {
+.Slogan h1 {
     height: 23vh;
     width: 76vh;
     font-family: 'Lora', serif;
     font-size: 59px;
 }
 
-.Slogan p
- {
+.Slogan p {
     font-family: 'Mulish', sans-serif;
 }
+
+
+
+.Reserve-button {
+    border-radius: 4px;
+    height: 50px;
+    width: 210px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.Reserve-button:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.873);
+    transition-duration: 1s;
+}
+
+
+
+
+
+/* navbar */
+
+
+
+
+.topnav {
+    
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+}
+
+
+
+
+
 
 .navbar a {
     text-decoration: none;
@@ -68,7 +123,8 @@ body {
     font-weight: bold;
     transition-duration: 80ms;
 }
-.active{
+
+.active {
     font-weight: bold;
 }
 
@@ -97,32 +153,25 @@ body {
     align-items: center;
 }
 
-.Reserve-ticket {
-    border-radius: 4px;
-    height: 50px;
-    width: 210px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    cursor: pointer;
-    
-}
 
-.Reserve-ticket:hover {
-    color: black;
-    background-color: rgba(255, 255, 255, 0.873);
-    transition-duration: 1s;
-}
+
+
 
 
 
 /* Footer */
+
+
+
+
+
+
+
+
+
+
 .footer {
-    height: 44vh;
-    color: white;
-    background-color: black;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -149,17 +198,42 @@ body {
     display: flex;
     flex-direction: column;
 }
+.Test{
+    height: 44vh;
+    color: white;
+    background-color: black;
+    display: block;
+    text-align: center;
+}
+.Test p{
+    padding-top: 50px;
+}
+
+
+
+
+
+
 /* Guides */
-.textguides h1{
+
+
+
+
+
+
+
+.textguides h1 {
     height: 3vh;
     width: 30vh;
     font-family: 'Lora', serif;
     font-size: 40px;
 }
-.textguides{
+
+.textguides {
     padding: 19px 197px 1px;
 }
-.Travel-Guides{
+
+.Travel-Guides {
     background-image: url(Images/Guidesback.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -167,45 +241,54 @@ body {
     height: 100vh;
     font-family: 'Ubuntu', sans-serif;
 }
-.Guides{
+
+.Guides {
     height: 66vh;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 160px 0px 160px;
+    padding: 0px 100px 0px 100px;
 }
-.guidicons{
-   filter: drop-shadow(7px 10px 10px black);
-   background-color: rgba(255, 255, 255, 0.337);
+
+.guidicons {
+    /* filter: drop-shadow(5px 5px 5px black); */
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.337);
     height: 44vh;
     width: 40vh;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     display: block;
     padding-top: 20px;
-    
+
+}
+.guidicons:hover{
+    transform: scale(1.1);
 }
 
 
-.guidprofil{
+.guidprofil {
     filter: drop-shadow(7px 10px 10px black);
     height: 15vh;
     width: 20vh;
-    
+
     border: 2px solid black;
     border-radius: 30px;
 }
-.guidprofil img{
+
+.guidprofil img {
     height: 15vh;
     width: 20vh;
     border-radius: 30px;
 }
-.centrelize{
+
+.centrelize {
     display: flex;
     justify-content: center;
 }
-.Guidesmembers{
+
+.Guidesmembers {
     width: 30vh;
     filter: drop-shadow(3px 6px 3px black);
     background-color: rgb(0, 0, 0);
@@ -213,11 +296,12 @@ body {
     display: block;
     text-align: center;
     color: rgb(255, 255, 255);
-    margin: 9px 0px  40px 36px;
+    margin: 9px 0px 40px 36px;
     padding-top: 1px;
-    
+
 }
-.guidecontact{
+
+.guidecontact {
     border-radius: 4px;
     width: 90px;
     height: 28px;
@@ -231,13 +315,26 @@ body {
     cursor: pointer;
     margin-bottom: 4px;
 }
+
 .guidecontact:hover {
     color: rgb(255, 255, 255);
     background-color: rgba(85, 85, 85, 0.889);
     transition-duration: 80ms;
 }
+
+
+
+
+
 /* Flights */
-.Travel-Flights{
+
+
+
+
+
+
+
+.Travel-Flights {
     background-image: url(Images/BackFlights.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -245,51 +342,73 @@ body {
     height: 200vh;
 
 }
-.flights-slogan{
+
+.flights-slogan {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Flisght-page1{
+
+.Flisght-page1 {
     margin-top: 100px;
     display: block;
 }
-.Flisght-page1 h1{
+
+.Flisght-page1 h1 {
     font-size: 60px;
     text-align: center;
     font-family: 'Lora', serif;
 
 }
-.flights-logo{
-   
+
+.flights-logo {
+
     display: flex;
     justify-content: center;
 }
-.flights-logo img{
+
+.flights-logo img {
     height: 200px;
     width: 200px;
 }
-.scroll-down{
+
+.scroll-down {
     display: flex;
     justify-content: center;
-    
+
 }
-.scroll-down img{
+
+.scroll-down img {
     height: 60px;
     width: 60px;
 }
+
+
+
+
+
+
 /* Flights tickets page */
-#scroll-ticket{
+
+
+
+
+
+
+
+#scroll-ticket {
     height: 50vh;
-    
+
 }
-.flights-ticket{
+
+.flights-ticket {
     display: flex;
     justify-content: space-between;
     padding: 0px 90px 0px 90px;
 
 }
-.ticket-icone{
+
+.ticket-icone {
     margin-top: 30px;
     display: block;
     background-color: rgb(255, 255, 255);
@@ -298,24 +417,30 @@ body {
     height: 300px;
     width: 350px;
     filter: drop-shadow(7px 7px 8px black);
-    
+
 }
-.ticket-pic{
+.ticket-icone:hover{
+    transform: scale(1.1);
+}
+
+.ticket-pic {
     display: flex;
     justify-content: center;
 }
-.ticket-pic img{
+
+.ticket-pic img {
     margin-top: 5px;
     height: 150px;
     width: 340px;
     border-radius: 10px;
 }
 
-.modif{
-   
- height: 30%;
+.modif {
+
+    height: 30%;
 }
-.ticket-info{
+
+.ticket-info {
     height: 15%;
     display: flex;
     justify-content: space-between;
@@ -323,7 +448,8 @@ body {
     padding: 0px 30px 0px 20px;
     font-size: 20px;
 }
-.Buy-ticket{
+
+.Buy-ticket {
     margin-bottom: 30px;
     height: 30px;
     width: 90px;
@@ -331,23 +457,41 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .Buy-ticket:hover {
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.889);
-    transition-duration: 1s; 
+    transition-duration: 1s;
 }
-.Info{
+
+.Info {
     padding-left: 15px;
 }
+
+
+
+
+
+
+
 /* About Us */
-.about-us{
+
+
+
+
+
+
+
+
+.about-us {
     background-image: url(Images/Aboutback.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
 }
-.View2 img{
+
+.View2 img {
     padding-right: 180px;
     height: 30vh;
     width: 80vh;
@@ -355,83 +499,153 @@ body {
     filter: drop-shadow(15px 12px 10px rgb(53, 53, 53));
 
 }
-.content-about{
+
+.content-about {
     display: flex;
     justify-content: space-between;
-    padding:90px 300px 0px 200px;
-    
+    padding: 90px 300px 0px 200px;
+
 }
 
 
-.Slogan2 h1{
+.Slogan2 h1 {
     font-family: 'Lora', serif;
     font-size: 59px;
     text-align: start;
     padding-right: 150px;
-    
+
 }
-.Slogan2 p
- {
+
+.Slogan2 p {
     text-align: start;
     width: 80vh;
     font-family: 'Mulish', sans-serif;
-    
+
 }
-.about-text{
+
+.about-text {
     display: block;
     margin-top: -50px;
-    
+
 }
+
+
+
+
+
+
+
+
 /* Contact us */
-.travel-contact{
-    background-image: url(Images/Contactback.jpg);
+
+
+
+
+
+
+
+
+
+.travel-contact {
+    background-image: url(Images/Contactback.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
 
 }
-.contact-back{
+
+.contact-back {
     background-color: rgba(255, 255, 255, 0.718);
     height: 100vh;
 }
-.contact-info{
-   height: 85vh;
-   display: block;
+
+.Contact-title h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lora', serif;
 }
-.contact-description{
-    padding-top: 80px;
-   text-align: center;
-   height: 30vh;
-   margin-bottom: 50px;
-  
+
+
+.contact-info {
+    height: 55vh;
+    display: flex;
+
+    justify-content: space-between;
+    padding: 0px 190px 0px 120px;
 }
-.contact-description h1{
+
+.contact-description img{
+
+    /* text-align: center;
+    height: 30vh;
+    margin-bottom: 50px; */
+    height: 50vh;
+    width: 80vh;
+    filter: drop-shadow(7px 7px 5px black);
+
+}
+
+.contact-description h1 {
     font-size: 30px;
     font-weight: 900;
-    
+    font-family: 'Lora', serif;
+
 }
+
+
+
+
+
+
+
+
 /* Inputs */
-.contact-inputs{
-    
-    background-color: rgba(255, 255, 255, 0.521);
+
+
+
+
+
+
+
+
+
+.contact-inputs {
+    width: 400px;
+margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+
+
 }
-input[type=text], 
-select,
+
+input[type=text],
+
 input[type=email],
-input[type=number]
-{
-    
+input[type=tel] {
+    width: 300px;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin-bottom: 10px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
-  }
-  .Submit-button{
+
+}
+
+select {
+    width: 200px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    width: 125px;
+    color: rgba(122, 122, 122, 0.923) ;
+
+}
+
+.Submit-button {
+    border-radius: 4px;
+    width: 338px;
     height: 40px;
     background-color: rgba(102, 102, 102, 0);
     color: black;
@@ -439,16 +653,19 @@ input[type=number]
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
-  }
-  .Submit-button:hover{
-    background-color: black;
-    color: white;
+    padding: left 40px;
+    
+}
 
-    transition-duration: 1s;
-  }
-  
-
-  
-  
-  
-  
+.Submit-button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.889);
+    transition-duration: 80ms;
+}
+.Input-contact{
+    background-color: rgba(0, 0, 0, 0.351);
+    padding: 10px 0px 10px 40px;
+    height: 59vh;
+    border-radius: 10px;
+      
+}

@@ -519,7 +519,8 @@ body {
 .content-about {
     display: flex;
     justify-content: space-between;
-    padding: 90px 300px 0px 200px;
+    align-items: center;
+    
 
 }
 

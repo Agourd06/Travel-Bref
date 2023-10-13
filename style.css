@@ -537,7 +537,7 @@ body {
 
 
 
-/* Contact us */
+/* Contact us  and Contact Guides */
 
 
 
@@ -601,7 +601,7 @@ body {
 
 
 
-/* Inputs */
+/* Inputs  For two pages (contactUs and ContactGuides)*/
 
 
 
@@ -639,7 +639,7 @@ select {
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    color: rgba(122, 122, 122, 0.912) ;
+    color: rgb(0, 0, 0)
 
 }
 

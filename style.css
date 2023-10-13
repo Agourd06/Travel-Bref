@@ -35,8 +35,6 @@ body {
 .Travel-home {
     background-image: url(Images/homeback.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     height: 100vh;
     width: auto;
 }
@@ -45,15 +43,16 @@ body {
 .content {
     display: flex;
     justify-content: space-between;
-    padding: 90px 150px 0px 200px;
+    align-items: center;
+    padding: 0px 150px 0px 200px;
+    height: 70%;
 
 }
 
 .View1 img {
-    padding-right: 50px;
+    float: left;
     height: 50vh;
     width: 75vh;
-    padding-top: 4vh;
     filter: drop-shadow(15px 12px 10px rgb(53, 53, 53));
 }
 
@@ -62,10 +61,12 @@ body {
     width: 76vh;
     font-family: 'Lora', serif;
     font-size: 59px;
+    
 }
 
 .Slogan p {
     font-family: 'Mulish', sans-serif;
+    
 }
 
 
@@ -103,8 +104,6 @@ body {
     height: 80px;
     display: flex;
     justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
     align-items: center;
 }
 
@@ -117,6 +116,9 @@ body {
     text-decoration: none;
     padding-right: 30px;
     color: rgb(102, 102, 102);
+    text-align: right;
+   
+
 }
 
 .activebutton:hover {
@@ -130,7 +132,7 @@ body {
 
 .contactbutton {
     border-radius: 4px;
-    width: 125px;
+    width: 140px;
     height: 40px;
     background-color: rgba(102, 102, 102, 0);
     color: black;
@@ -138,8 +140,15 @@ body {
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
+
     
 
+}
+.Switch{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 20%;
 }
 
 .contactbutton:hover {
@@ -150,8 +159,10 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
+    width: 28%;
+    
 }
 
 
@@ -200,14 +211,18 @@ body {
     flex-direction: column;
 }
 .Test{
-    height: 44vh;
+    height: 39vh;
     color: white;
     background-color: black;
     display: block;
+    justify-content: center;
     text-align: center;
 }
 .Test p{
-    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: end;
 }
 
 

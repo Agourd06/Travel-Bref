@@ -670,7 +670,9 @@ select {
       
 }
 .Inputs-message{
+    width: 48vh !important;
     height: 10vh !important;
+    border-radius: 4px;
     
 }
 
